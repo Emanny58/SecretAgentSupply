@@ -3,6 +3,8 @@ body {
   font-family: sans-serif;
 }
 
+/* logo top banner */
+
 .logo {
   background-color: black;
   color: white;
@@ -19,4 +21,23 @@ body {
 .logo span {
   display: flex;
   align-self: center;
+}
+
+/* main banner */
+
+.main-banner {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-position:bottom;
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  align-items: center;
+}
+.arrival {
+  margin-left: 20%;
+  padding: 2em;
+  color: white;
+  background-color: black;
+  width: 23%;
 }
